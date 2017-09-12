@@ -29,6 +29,32 @@ hr{
     text-align: right;
 }
 
+#search-input{
+    position: absolute;
+    z-index: 5;
+    background-color: rgb(0,66,116);
+    padding: 12px 8px 6px 8px;
+    right: 9%;
+    display: none;
+}
+
+#search{
+    width: 150px;
+}
+
+#go{
+    background-color: rgb(0,66,116);
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+#search-img:hover +#search-input{
+    display: block;
+
+}
+
 #header a{
     color: white;
 }
